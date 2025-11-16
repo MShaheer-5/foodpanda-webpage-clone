@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins";
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  padding: 12px 0;
+  box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.05);
+  z-index: 999;
+}
+
+body {
+  padding: 80px;
+}
+
+.nav-r1 > img {
+  width: 150px;
+  height: auto;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+.nav-r1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.address {
+  padding: 10;
+}
+
+.login-btn {
+  background-color: white;
+  border: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.signup-btn {
+  background-color: #c21760;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.navbar > ul {
+  display: flex;
+  gap: 26px;
+  list-style: none;
+  margin: 20px;
+  padding: 10px;
+}
+
+.navbar ul li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-bottom: 1px;
+  padding: 0;
+}
+
+.address {
+  display: flex;
+}
+
+.lang-select {
+  border: none;
+  background-color: white;
+  border-radius: 3px;
+  padding: 10px;
+}
