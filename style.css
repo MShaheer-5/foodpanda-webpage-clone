@@ -85,3 +85,47 @@ body {
   border-radius: 3px;
   padding: 10px;
 }
+body {
+  padding-top: 200px;
+}
+
+.sidebar {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+}
+
+.layout {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  width: 260px;
+  padding: 20px;
+  border-right: 1px solid #eee;
+  position: sticky;
+  top: 120px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-group h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.filter-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+  font-size: 14px;
+}
+.cuisine-search {
+  border-radius: 5px;
+}
