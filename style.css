@@ -102,10 +102,13 @@ body {
 .sidebar {
   width: 260px;
   padding: 20px;
-  border-right: 1px solid #eee;
   position: sticky;
   top: 120px;
   height: 300px;
+  border-radius: 10px;
+  border-color: rgb(235, 220, 220);
+  border-style: solid;
+  border-width: 0.5px;
   overflow-y: scroll;
 }
 
@@ -128,4 +131,49 @@ body {
 }
 .cuisine-search {
   border-radius: 5px;
+}
+.main-search {
+  width: 800px;
+  height: 50px;
+  border-radius: 30px;
+}
+.banner {
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-top: 25px;
+  width: 900px;
+  height: 150px;
+  background-color: #ffdddd;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.banner > img {
+  width: 200px;
+  height: auto;
+}
+.restaurant-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.restaurant-card {
+  border-radius: 10px;
+  border-color: rgb(235, 220, 220);
+  border-style: solid;
+  border-width: 0.5px;
+}
+.rest-img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+.rest-name,
+.description,
+.rating {
+  padding-left: 5px;
+  padding-bottom: 0;
+}
+.main-container {
+  margin: 10px;
 }

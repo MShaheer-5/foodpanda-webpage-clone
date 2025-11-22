@@ -5,3 +5,7 @@ This project aims to clone the home web page layout of [foodpanda.pk](https://ww
 ## Features
 
 -Navigation Bar: Allows users to authorize themselves, navigate through different pages and change website language.
+
+-Sidebar: Allows users to filter their searches for better results.
+
+- Restaurant Cards: Different restaurant cards in grid format showcasing restaurant's rating, food type, location and delivery time gives user easy access to the best restaurants around.
